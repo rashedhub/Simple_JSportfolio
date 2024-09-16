@@ -287,7 +287,7 @@ section {
 	width: 400px;
 	height: 500px;
 	padding: 20px 10px;
-	margin-left: 200px;
+	margin: auto;
 }
 
 .heading1 {
@@ -787,7 +787,28 @@ form textarea {
 		opacity: 1;
 	}
 }
+/*
+@media (min-width: 1700px) {
+	.container1 {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+}
 
+@media (min-width: 1500px) {
+	.container1 {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.container1 {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
+*/
 @media (max-width: 1200px) {
 	.header {
 		position: auto;
@@ -845,5 +866,5 @@ form textarea {
 	}
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 970px) {
 }
